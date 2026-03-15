@@ -1,0 +1,1312 @@
+[
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n上古时期'<audio>'\n天降陨石'<audio>'\n带来了一股可怕的神秘力量'<audio>'\n四处为祸人间'<audio>'\n有人说大德伯阳子出匣谷关'<audio>'\n最终将其封印'<audio>'\n令其再也无法作恶'<audio>'\n也有人说'<audio>'\n封印只是暂时的'<audio>'\n它始终在寻找逃脱的机会'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/000.wav",
+            "../data/slice/七根心简/01/001.wav",
+            "../data/slice/七根心简/01/002.wav",
+            "../data/slice/七根心简/01/003.wav",
+            "../data/slice/七根心简/01/004.wav",
+            "../data/slice/七根心简/01/005.wav",
+            "../data/slice/七根心简/01/006.wav",
+            "../data/slice/七根心简/01/007.wav",
+            "../data/slice/七根心简/01/008.wav",
+            "../data/slice/七根心简/01/009.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n封印只是暂时的'<audio>'\n它始终在寻找逃脱的机会'<audio>'\n蠢蠢欲动'<audio>'\n这个故事'<audio>'\n就从二十二年前'<audio>'\n落马湖的一个冬夜开始'<audio>'\n没长眼睛'<audio>'\n亚青'<audio>'\n帮我拿壶热水来'<audio>'\n来了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/008.wav",
+            "../data/slice/七根心简/01/009.wav",
+            "../data/slice/七根心简/01/010.wav",
+            "../data/slice/七根心简/01/011.wav",
+            "../data/slice/七根心简/01/012.wav",
+            "../data/slice/七根心简/01/013.wav",
+            "../data/slice/七根心简/01/014.wav",
+            "../data/slice/七根心简/01/015.wav",
+            "../data/slice/七根心简/01/016.wav",
+            "../data/slice/七根心简/01/017.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n帮我拿壶热水来'<audio>'\n来了'<audio>'\n喂'<audio>'\n霍子红小姐吗'<audio>'\n我是'<audio>'\n你查的落马湖案有消息了'<audio>'\n快点快点'<audio>'\n还好我请假来了'<audio>'\n拍那边 拍那边 你看'<audio>'\n飞太快了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/016.wav",
+            "../data/slice/七根心简/01/017.wav",
+            "../data/slice/七根心简/01/018.wav",
+            "../data/slice/七根心简/01/019.wav",
+            "../data/slice/七根心简/01/020.wav",
+            "../data/slice/七根心简/01/021.wav",
+            "../data/slice/七根心简/01/022.wav",
+            "../data/slice/七根心简/01/023.wav",
+            "../data/slice/七根心简/01/024.wav",
+            "../data/slice/七根心简/01/025.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n拍那边 拍那边 你看'<audio>'\n飞太快了'<audio>'\n对好焦了吗'<audio>'\n拍得清楚'<audio>'\n我来吧还是'<audio>'\n红姨'<audio>'\n你终于给我打电话了'<audio>'\n是不是你那件正事有着落了'<audio>'\n刚定下'<audio>'\n今天下午两点'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/024.wav",
+            "../data/slice/七根心简/01/025.wav",
+            "../data/slice/七根心简/01/026.wav",
+            "../data/slice/七根心简/01/027.wav",
+            "../data/slice/七根心简/01/028.wav",
+            "../data/slice/七根心简/01/029.wav",
+            "../data/slice/七根心简/01/030.wav",
+            "../data/slice/七根心简/01/031.wav",
+            "../data/slice/七根心简/01/032.wav",
+            "../data/slice/七根心简/01/033.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n刚定下'<audio>'\n今天下午两点'<audio>'\n你到了亮牌子'<audio>'\n自然有人招呼'<audio>'\n对方叫万烽火'<audio>'\n是干了几十年的包打听'<audio>'\n你到了那里啊 话别多'<audio>'\n只管听着就行啊'<audio>'\n放心吧 江湖规矩我比您懂'<audio>'\n是'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/032.wav",
+            "../data/slice/七根心简/01/033.wav",
+            "../data/slice/七根心简/01/034.wav",
+            "../data/slice/七根心简/01/035.wav",
+            "../data/slice/七根心简/01/036.wav",
+            "../data/slice/七根心简/01/037.wav",
+            "../data/slice/七根心简/01/038.wav",
+            "../data/slice/七根心简/01/039.wav",
+            "../data/slice/七根心简/01/040.wav",
+            "../data/slice/七根心简/01/041.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n放心吧 江湖规矩我比您懂'<audio>'\n是'<audio>'\n咱们木代啊'<audio>'\n是学了八年的武呢'<audio>'\n那一会儿啊'<audio>'\n我把定位发给你'<audio>'\n一个人注意安全啊'<audio>'\n好的红姨'<audio>'\n挂了'<audio>'\n妹妹'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/040.wav",
+            "../data/slice/七根心简/01/041.wav",
+            "../data/slice/七根心简/01/042.wav",
+            "../data/slice/七根心简/01/043.wav",
+            "../data/slice/七根心简/01/044.wav",
+            "../data/slice/七根心简/01/045.wav",
+            "../data/slice/七根心简/01/046.wav",
+            "../data/slice/七根心简/01/047.wav",
+            "../data/slice/七根心简/01/048.wav",
+            "../data/slice/七根心简/01/049.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n挂了'<audio>'\n妹妹'<audio>'\n拉我手干吗啊'<audio>'\n撒开'<audio>'\n我让你撒开'<audio>'\n你拿着我东西呢'<audio>'\n我在替你保管'<audio>'\n我给你放回去 放回去'<audio>'\n放好了'<audio>'\n快撒开吧'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/048.wav",
+            "../data/slice/七根心简/01/049.wav",
+            "../data/slice/七根心简/01/050.wav",
+            "../data/slice/七根心简/01/051.wav",
+            "../data/slice/七根心简/01/052.wav",
+            "../data/slice/七根心简/01/053.wav",
+            "../data/slice/七根心简/01/054.wav",
+            "../data/slice/七根心简/01/055.wav",
+            "../data/slice/七根心简/01/056.wav",
+            "../data/slice/七根心简/01/057.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n放好了'<audio>'\n快撒开吧'<audio>'\n不是'<audio>'\n你你 你坐反了'<audio>'\n你得到那头'<audio>'\n往那边坐 北岸'<audio>'\n不'<audio>'\n我还得坐回去'<audio>'\n是是是'<audio>'\n你给我撒开吧 你给我撒开吧'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/056.wav",
+            "../data/slice/七根心简/01/057.wav",
+            "../data/slice/七根心简/01/058.wav",
+            "../data/slice/七根心简/01/059.wav",
+            "../data/slice/七根心简/01/060.wav",
+            "../data/slice/七根心简/01/061.wav",
+            "../data/slice/七根心简/01/062.wav",
+            "../data/slice/七根心简/01/063.wav",
+            "../data/slice/七根心简/01/064.wav",
+            "../data/slice/七根心简/01/065.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n是是是'<audio>'\n你给我撒开吧 你给我撒开吧'<audio>'\n您这小手'<audio>'\n赛螃蟹'<audio>'\n还得坐回去'<audio>'\n下回早点出来啊'<audio>'\n知道了'<audio>'\n咱们一会儿再去看个电影'<audio>'\n好'<audio>'\n刚吃完饭 别催了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/064.wav",
+            "../data/slice/七根心简/01/065.wav",
+            "../data/slice/七根心简/01/066.wav",
+            "../data/slice/七根心简/01/067.wav",
+            "../data/slice/七根心简/01/068.wav",
+            "../data/slice/七根心简/01/069.wav",
+            "../data/slice/七根心简/01/070.wav",
+            "../data/slice/七根心简/01/071.wav",
+            "../data/slice/七根心简/01/072.wav",
+            "../data/slice/七根心简/01/073.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n好'<audio>'\n刚吃完饭 别催了'<audio>'\n还有十分钟'<audio>'\n欢迎光临'<audio>'\n真好吃'<audio>'\n客人来了'<audio>'\n这边请'<audio>'\n电磁能量今日一点再创新高'<audio>'\n通信 电力等相关领域'<audio>'\n或将受到影响'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/072.wav",
+            "../data/slice/七根心简/01/073.wav",
+            "../data/slice/七根心简/01/074.wav",
+            "../data/slice/七根心简/01/075.wav",
+            "../data/slice/七根心简/01/076.wav",
+            "../data/slice/七根心简/01/077.wav",
+            "../data/slice/七根心简/01/078.wav",
+            "../data/slice/七根心简/01/079.wav",
+            "../data/slice/七根心简/01/080.wav",
+            "../data/slice/七根心简/01/081.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n通信 电力等相关领域'<audio>'\n或将受到影响'<audio>'\n怎么形容我们这个行业呢'<audio>'\n就好比这个簪子'<audio>'\n有两个人'<audio>'\n一个人呢'<audio>'\n问我要老银做的凤凰簪子'<audio>'\n还有个人说'<audio>'\n我要红宝石做眼的凤凰簪子'<audio>'\n但是我没有簪子'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/080.wav",
+            "../data/slice/七根心简/01/081.wav",
+            "../data/slice/七根心简/01/082.wav",
+            "../data/slice/七根心简/01/083.wav",
+            "../data/slice/七根心简/01/084.wav",
+            "../data/slice/七根心简/01/085.wav",
+            "../data/slice/七根心简/01/086.wav",
+            "../data/slice/七根心简/01/087.wav",
+            "../data/slice/七根心简/01/088.wav",
+            "../data/slice/七根心简/01/089.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我要红宝石做眼的凤凰簪子'<audio>'\n但是我没有簪子'<audio>'\n直到有一天'<audio>'\n有个人拿着它来找我'<audio>'\n您瞧'<audio>'\n这买家有了 卖家有了'<audio>'\n这不一下就对上了吗'<audio>'\n而我呢'<audio>'\n我就是出售这簪子信息的'<audio>'\n有事赶紧说事'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/088.wav",
+            "../data/slice/七根心简/01/089.wav",
+            "../data/slice/七根心简/01/090.wav",
+            "../data/slice/七根心简/01/091.wav",
+            "../data/slice/七根心简/01/092.wav",
+            "../data/slice/七根心简/01/093.wav",
+            "../data/slice/七根心简/01/094.wav",
+            "../data/slice/七根心简/01/095.wav",
+            "../data/slice/七根心简/01/096.wav",
+            "../data/slice/七根心简/01/097.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我就是出售这簪子信息的'<audio>'\n有事赶紧说事'<audio>'\n大老远来的'<audio>'\n没空听你在这儿吹水'<audio>'\n李先生您少安毋躁'<audio>'\n我这次的信息量是特别地大'<audio>'\n一定保您物超所值'<audio>'\n钱不白花'<audio>'\n马先生'<audio>'\n这位是霍小姐'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/096.wav",
+            "../data/slice/七根心简/01/097.wav",
+            "../data/slice/七根心简/01/098.wav",
+            "../data/slice/七根心简/01/099.wav",
+            "../data/slice/七根心简/01/100.wav",
+            "../data/slice/七根心简/01/101.wav",
+            "../data/slice/七根心简/01/102.wav",
+            "../data/slice/七根心简/01/103.wav",
+            "../data/slice/七根心简/01/104.wav",
+            "../data/slice/七根心简/01/105.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n马先生'<audio>'\n这位是霍小姐'<audio>'\n她是我养母'<audio>'\n我叫木代'<audio>'\n木小姐'<audio>'\n失敬失敬'<audio>'\n请坐'<audio>'\n介绍一下'<audio>'\n李坦李先生'<audio>'\n马涂文马先生'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/104.wav",
+            "../data/slice/七根心简/01/105.wav",
+            "../data/slice/七根心简/01/106.wav",
+            "../data/slice/七根心简/01/107.wav",
+            "../data/slice/七根心简/01/108.wav",
+            "../data/slice/七根心简/01/109.wav",
+            "../data/slice/七根心简/01/110.wav",
+            "../data/slice/七根心简/01/111.wav",
+            "../data/slice/七根心简/01/112.wav",
+            "../data/slice/七根心简/01/113.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n李坦李先生'<audio>'\n马涂文马先生'<audio>'\n我这儿呢'<audio>'\n有一个小小的规矩'<audio>'\n为了保护线人的隐私'<audio>'\n在这个空间里头'<audio>'\n不可以照相 录像和录音'<audio>'\n而且呢'<audio>'\n一会儿这个屋子的信号'<audio>'\n将会被屏蔽'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/112.wav",
+            "../data/slice/七根心简/01/113.wav",
+            "../data/slice/七根心简/01/114.wav",
+            "../data/slice/七根心简/01/115.wav",
+            "../data/slice/七根心简/01/116.wav",
+            "../data/slice/七根心简/01/117.wav",
+            "../data/slice/七根心简/01/118.wav",
+            "../data/slice/七根心简/01/119.wav",
+            "../data/slice/七根心简/01/120.wav",
+            "../data/slice/七根心简/01/121.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n一会儿这个屋子的信号'<audio>'\n将会被屏蔽'<audio>'\n你们的手机呢'<audio>'\n我会妥善保管'<audio>'\n大哥 他要收手机 屏蔽'<audio>'\n照他说的做'<audio>'\n各位'<audio>'\n这就屏蔽了啊'<audio>'\n废话不多说'<audio>'\n直接进入正题'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/120.wav",
+            "../data/slice/七根心简/01/121.wav",
+            "../data/slice/七根心简/01/122.wav",
+            "../data/slice/七根心简/01/123.wav",
+            "../data/slice/七根心简/01/124.wav",
+            "../data/slice/七根心简/01/125.wav",
+            "../data/slice/七根心简/01/126.wav",
+            "../data/slice/七根心简/01/127.wav",
+            "../data/slice/七根心简/01/128.wav",
+            "../data/slice/七根心简/01/129.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n废话不多说'<audio>'\n直接进入正题'<audio>'\n介绍一下'<audio>'\n岑春娇'<audio>'\n这次的信息提供者'<audio>'\n各位定金都已经付过了'<audio>'\n等她讲完以后呢'<audio>'\n你们再决定要不要付尾款'<audio>'\n各位可以质疑她所说的真实性'<audio>'\n如果有什么疑惑的话呢'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/128.wav",
+            "../data/slice/七根心简/01/129.wav",
+            "../data/slice/七根心简/01/130.wav",
+            "../data/slice/七根心简/01/131.wav",
+            "../data/slice/七根心简/01/132.wav",
+            "../data/slice/七根心简/01/133.wav",
+            "../data/slice/七根心简/01/134.wav",
+            "../data/slice/七根心简/01/135.wav",
+            "../data/slice/七根心简/01/136.wav",
+            "../data/slice/七根心简/01/137.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n各位可以质疑她所说的真实性'<audio>'\n如果有什么疑惑的话呢'<audio>'\n我们按老规矩'<audio>'\n投票表决'<audio>'\n少数服从多数'<audio>'\n如果半数以上的人认为'<audio>'\n信息是值钱的 有用的'<audio>'\n那么各位爽快地付钱'<audio>'\n那就'<audio>'\n开始吧'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/136.wav",
+            "../data/slice/七根心简/01/137.wav",
+            "../data/slice/七根心简/01/138.wav",
+            "../data/slice/七根心简/01/139.wav",
+            "../data/slice/七根心简/01/140.wav",
+            "../data/slice/七根心简/01/141.wav",
+            "../data/slice/七根心简/01/142.wav",
+            "../data/slice/七根心简/01/143.wav",
+            "../data/slice/七根心简/01/144.wav",
+            "../data/slice/七根心简/01/145.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n那就'<audio>'\n开始吧'<audio>'\n这几桩渔线杀人案的凶手'<audio>'\n叫刘树海'<audio>'\n五年前就死了'<audio>'\n几桩'<audio>'\n五年前就死了'<audio>'\n是的'<audio>'\n五年前'<audio>'\n当时我在济泉西郊客运站的'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/144.wav",
+            "../data/slice/七根心简/01/145.wav",
+            "../data/slice/七根心简/01/146.wav",
+            "../data/slice/七根心简/01/147.wav",
+            "../data/slice/七根心简/01/148.wav",
+            "../data/slice/七根心简/01/149.wav",
+            "../data/slice/七根心简/01/150.wav",
+            "../data/slice/七根心简/01/151.wav",
+            "../data/slice/七根心简/01/152.wav",
+            "../data/slice/七根心简/01/153.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n五年前'<audio>'\n当时我在济泉西郊客运站的'<audio>'\n一个旅馆里当服务员'<audio>'\n就是那种特别低端的小旅馆'<audio>'\n被褥也常年不换的'<audio>'\n住的客人三教九流的'<audio>'\n干什么都有'<audio>'\n那天我值夜班'<audio>'\n喂'<audio>'\n前台吗'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/152.wav",
+            "../data/slice/七根心简/01/153.wav",
+            "../data/slice/七根心简/01/154.wav",
+            "../data/slice/七根心简/01/155.wav",
+            "../data/slice/七根心简/01/156.wav",
+            "../data/slice/七根心简/01/157.wav",
+            "../data/slice/七根心简/01/158.wav",
+            "../data/slice/七根心简/01/159.wav",
+            "../data/slice/七根心简/01/160.wav",
+            "../data/slice/七根心简/01/161.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n喂'<audio>'\n前台吗'<audio>'\n203要壶热水'<audio>'\n好'<audio>'\n刘先生'<audio>'\n刘先生'<audio>'\n进屋之后那场景'<audio>'\n我这辈子都忘不了'<audio>'\n刘 刘先生'<audio>'\n那个 热水来了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/160.wav",
+            "../data/slice/七根心简/01/161.wav",
+            "../data/slice/七根心简/01/162.wav",
+            "../data/slice/七根心简/01/163.wav",
+            "../data/slice/七根心简/01/164.wav",
+            "../data/slice/七根心简/01/165.wav",
+            "../data/slice/七根心简/01/166.wav",
+            "../data/slice/七根心简/01/167.wav",
+            "../data/slice/七根心简/01/168.wav",
+            "../data/slice/七根心简/01/169.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n刘 刘先生'<audio>'\n那个 热水来了'<audio>'\n我给您放这儿了'<audio>'\n刘先生 我 我扶您'<audio>'\n你 你没事'<audio>'\n您没事吧'<audio>'\n刘先生'<audio>'\n刘先生'<audio>'\n刘先生'<audio>'\n开门'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/168.wav",
+            "../data/slice/七根心简/01/169.wav",
+            "../data/slice/七根心简/01/170.wav",
+            "../data/slice/七根心简/01/171.wav",
+            "../data/slice/七根心简/01/172.wav",
+            "../data/slice/七根心简/01/173.wav",
+            "../data/slice/七根心简/01/174.wav",
+            "../data/slice/七根心简/01/175.wav",
+            "../data/slice/七根心简/01/176.wav",
+            "../data/slice/七根心简/01/177.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n刘先生'<audio>'\n开门'<audio>'\n来人啊'<audio>'\n一月二十号落马湖'<audio>'\n曙光街25号501室'<audio>'\n杀三人'<audio>'\n李建利'<audio>'\n男 五十九岁'<audio>'\n余秀英'<audio>'\n女 五十五岁'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/176.wav",
+            "../data/slice/七根心简/01/177.wav",
+            "../data/slice/七根心简/01/178.wav",
+            "../data/slice/七根心简/01/179.wav",
+            "../data/slice/七根心简/01/180.wav",
+            "../data/slice/七根心简/01/181.wav",
+            "../data/slice/七根心简/01/182.wav",
+            "../data/slice/七根心简/01/183.wav",
+            "../data/slice/七根心简/01/184.wav",
+            "../data/slice/七根心简/01/185.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n余秀英'<audio>'\n女 五十五岁'<audio>'\n李亚青'<audio>'\n女 二十三岁'<audio>'\n救命啊'<audio>'\n他为什么会以那样的方式说话'<audio>'\n他杀了什么人'<audio>'\n怎么杀的'<audio>'\n他杀那个人为什么'<audio>'\n而且他说话的样子'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/184.wav",
+            "../data/slice/七根心简/01/185.wav",
+            "../data/slice/七根心简/01/186.wav",
+            "../data/slice/七根心简/01/187.wav",
+            "../data/slice/七根心简/01/188.wav",
+            "../data/slice/七根心简/01/189.wav",
+            "../data/slice/七根心简/01/190.wav",
+            "../data/slice/七根心简/01/191.wav",
+            "../data/slice/七根心简/01/192.wav",
+            "../data/slice/七根心简/01/193.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n他杀那个人为什么'<audio>'\n而且他说话的样子'<audio>'\n就像打报告一样'<audio>'\n特别恐怖'<audio>'\n他说了几件案子'<audio>'\n两件'<audio>'\n落马湖是第一件案子'<audio>'\n那第二件呢'<audio>'\n老板'<audio>'\n一一 一件有一件的价钱'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/192.wav",
+            "../data/slice/七根心简/01/193.wav",
+            "../data/slice/七根心简/01/194.wav",
+            "../data/slice/七根心简/01/195.wav",
+            "../data/slice/七根心简/01/196.wav",
+            "../data/slice/七根心简/01/197.wav",
+            "../data/slice/七根心简/01/198.wav",
+            "../data/slice/七根心简/01/199.wav",
+            "../data/slice/七根心简/01/200.wav",
+            "../data/slice/七根心简/01/201.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n老板'<audio>'\n一一 一件有一件的价钱'<audio>'\n你你 你也懂的'<audio>'\n但是他就是杀人犯'<audio>'\n而且用的就是渔线'<audio>'\n那后来呢'<audio>'\n人 尸体都在'<audio>'\n确实是死了'<audio>'\n但是他的背上'<audio>'\n被人割走了一大块皮'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/200.wav",
+            "../data/slice/七根心简/01/201.wav",
+            "../data/slice/七根心简/01/202.wav",
+            "../data/slice/七根心简/01/203.wav",
+            "../data/slice/七根心简/01/204.wav",
+            "../data/slice/七根心简/01/205.wav",
+            "../data/slice/七根心简/01/206.wav",
+            "../data/slice/七根心简/01/207.wav",
+            "../data/slice/七根心简/01/208.wav",
+            "../data/slice/七根心简/01/209.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n但是他的背上'<audio>'\n被人割走了一大块皮'<audio>'\n报警吧'<audio>'\n不是 不是'<audio>'\n经理已经报警了'<audio>'\n有人报警了吗'<audio>'\n这人长得还挺年轻'<audio>'\n流那么多血'<audio>'\n人皮是被割走的'<audio>'\n你跑出去之后有人进来过'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/208.wav",
+            "../data/slice/七根心简/01/209.wav",
+            "../data/slice/七根心简/01/210.wav",
+            "../data/slice/七根心简/01/211.wav",
+            "../data/slice/七根心简/01/212.wav",
+            "../data/slice/七根心简/01/213.wav",
+            "../data/slice/七根心简/01/214.wav",
+            "../data/slice/七根心简/01/215.wav",
+            "../data/slice/七根心简/01/216.wav",
+            "../data/slice/七根心简/01/217.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n人皮是被割走的'<audio>'\n你跑出去之后有人进来过'<audio>'\n没有任何人进来啊'<audio>'\n而且那个走廊是个死胡同'<audio>'\n我就站在那里'<audio>'\n我根本没有看到任何人进出'<audio>'\n那你凭什么说'<audio>'\n那块皮是被人割走的呢'<audio>'\n因为那个伤口的边缘特别光滑'<audio>'\n那肯定是人为的'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/216.wav",
+            "../data/slice/七根心简/01/217.wav",
+            "../data/slice/七根心简/01/218.wav",
+            "../data/slice/七根心简/01/219.wav",
+            "../data/slice/七根心简/01/220.wav",
+            "../data/slice/七根心简/01/221.wav",
+            "../data/slice/七根心简/01/222.wav",
+            "../data/slice/七根心简/01/223.wav",
+            "../data/slice/七根心简/01/224.wav",
+            "../data/slice/七根心简/01/225.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n因为那个伤口的边缘特别光滑'<audio>'\n那肯定是人为的'<audio>'\n而且是利器割的'<audio>'\n利器割的'<audio>'\n我的个乖乖'<audio>'\n姐妹'<audio>'\n你自己听听你说的这些话'<audio>'\n扯不扯呀'<audio>'\n你要说这人死了'<audio>'\n我们大伙儿还能相信一点'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/224.wav",
+            "../data/slice/七根心简/01/225.wav",
+            "../data/slice/七根心简/01/226.wav",
+            "../data/slice/七根心简/01/227.wav",
+            "../data/slice/七根心简/01/228.wav",
+            "../data/slice/七根心简/01/229.wav",
+            "../data/slice/七根心简/01/230.wav",
+            "../data/slice/七根心简/01/231.wav",
+            "../data/slice/七根心简/01/232.wav",
+            "../data/slice/七根心简/01/233.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你要说这人死了'<audio>'\n我们大伙儿还能相信一点'<audio>'\n关键是一块死皮'<audio>'\n谁要一块死皮干什么呢'<audio>'\n就是给割了一块人皮'<audio>'\n少没少一张人皮'<audio>'\n你去查查不就知道了吗'<audio>'\n你'<audio>'\n我们当时就报了警'<audio>'\n而且走廊里看热闹的人'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/232.wav",
+            "../data/slice/七根心简/01/233.wav",
+            "../data/slice/七根心简/01/234.wav",
+            "../data/slice/七根心简/01/235.wav",
+            "../data/slice/七根心简/01/236.wav",
+            "../data/slice/七根心简/01/237.wav",
+            "../data/slice/七根心简/01/238.wav",
+            "../data/slice/七根心简/01/239.wav",
+            "../data/slice/七根心简/01/240.wav",
+            "../data/slice/七根心简/01/241.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我们当时就报了警'<audio>'\n而且走廊里看热闹的人'<audio>'\n都知道这件事情'<audio>'\n精彩'<audio>'\n编得有鼻子有眼的啊'<audio>'\n看得出来下了不少功夫'<audio>'\n万老板'<audio>'\n做生意要诚实'<audio>'\n打听不到真消息不丢人'<audio>'\n编瞎话骗钱'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/240.wav",
+            "../data/slice/七根心简/01/241.wav",
+            "../data/slice/七根心简/01/242.wav",
+            "../data/slice/七根心简/01/243.wav",
+            "../data/slice/七根心简/01/244.wav",
+            "../data/slice/七根心简/01/245.wav",
+            "../data/slice/七根心简/01/246.wav",
+            "../data/slice/七根心简/01/247.wav",
+            "../data/slice/七根心简/01/248.wav",
+            "../data/slice/七根心简/01/249.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n打听不到真消息不丢人'<audio>'\n编瞎话骗钱'<audio>'\n吃相就难看了'<audio>'\n不是 老板'<audio>'\n你什么意思啊'<audio>'\n我没有编瞎话啊'<audio>'\n我说的都是真的'<audio>'\n我没说这件事是假的'<audio>'\n也许当时'<audio>'\n那小旅馆确实死了一个人'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/248.wav",
+            "../data/slice/七根心简/01/249.wav",
+            "../data/slice/七根心简/01/250.wav",
+            "../data/slice/七根心简/01/251.wav",
+            "../data/slice/七根心简/01/252.wav",
+            "../data/slice/七根心简/01/253.wav",
+            "../data/slice/七根心简/01/254.wav",
+            "../data/slice/七根心简/01/255.wav",
+            "../data/slice/七根心简/01/256.wav",
+            "../data/slice/七根心简/01/257.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n也许当时'<audio>'\n那小旅馆确实死了一个人'<audio>'\n也许那死了的人被人割了人皮'<audio>'\n但他跟二十二年前'<audio>'\n落马湖的案子没关系'<audio>'\n刘树海也不是落马湖案的凶手'<audio>'\n刘树海就是杀人犯'<audio>'\n撒谎'<audio>'\n我 我没有撒谎'<audio>'\n撒谎'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/256.wav",
+            "../data/slice/七根心简/01/257.wav",
+            "../data/slice/七根心简/01/258.wav",
+            "../data/slice/七根心简/01/259.wav",
+            "../data/slice/七根心简/01/260.wav",
+            "../data/slice/七根心简/01/261.wav",
+            "../data/slice/七根心简/01/262.wav",
+            "../data/slice/七根心简/01/263.wav",
+            "../data/slice/七根心简/01/264.wav",
+            "../data/slice/七根心简/01/265.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我 我没有撒谎'<audio>'\n撒谎'<audio>'\n可以不买我的线索呀'<audio>'\n万老板'<audio>'\n我 我的线索是真的'<audio>'\n你可以不买啊'<audio>'\n万老板'<audio>'\n我花钱是为了查落马湖的凶手'<audio>'\n其他案子再诡异十倍'<audio>'\n我也不感兴趣'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/264.wav",
+            "../data/slice/七根心简/01/265.wav",
+            "../data/slice/七根心简/01/266.wav",
+            "../data/slice/七根心简/01/267.wav",
+            "../data/slice/七根心简/01/268.wav",
+            "../data/slice/七根心简/01/269.wav",
+            "../data/slice/七根心简/01/270.wav",
+            "../data/slice/七根心简/01/271.wav",
+            "../data/slice/七根心简/01/272.wav",
+            "../data/slice/七根心简/01/273.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n其他案子再诡异十倍'<audio>'\n我也不感兴趣'<audio>'\n咱们都是买家'<audio>'\n我要的是消息'<audio>'\n只要真消息'<audio>'\n假消息我一分钱也不会给'<audio>'\n你们的意思呢'<audio>'\n先生您好'<audio>'\n您好 您好 您好'<audio>'\n罗哥 这个消息怎么说'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/272.wav",
+            "../data/slice/七根心简/01/273.wav",
+            "../data/slice/七根心简/01/274.wav",
+            "../data/slice/七根心简/01/275.wav",
+            "../data/slice/七根心简/01/276.wav",
+            "../data/slice/七根心简/01/277.wav",
+            "../data/slice/七根心简/01/278.wav",
+            "../data/slice/七根心简/01/279.wav",
+            "../data/slice/七根心简/01/280.wav",
+            "../data/slice/七根心简/01/281.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n您好 您好 您好'<audio>'\n罗哥 这个消息怎么说'<audio>'\n付钱'<audio>'\n好嘞'<audio>'\n整件事情就是这样'<audio>'\n今天来的'<audio>'\n我和一个姓马的都是代理'<audio>'\n那人傻呵呵的'<audio>'\n看不出什么'<audio>'\n但是有一个叫李坦的'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/280.wav",
+            "../data/slice/七根心简/01/281.wav",
+            "../data/slice/七根心简/01/282.wav",
+            "../data/slice/七根心简/01/283.wav",
+            "../data/slice/七根心简/01/284.wav",
+            "../data/slice/七根心简/01/285.wav",
+            "../data/slice/七根心简/01/286.wav",
+            "../data/slice/七根心简/01/287.wav",
+            "../data/slice/七根心简/01/288.wav",
+            "../data/slice/七根心简/01/289.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n看不出什么'<audio>'\n但是有一个叫李坦的'<audio>'\n他一口咬定消息是假的'<audio>'\n红姨'<audio>'\n你觉得呢'<audio>'\n据我了解'<audio>'\n我也觉得岑春娇'<audio>'\n说得不太对'<audio>'\n假的'<audio>'\n合着我在这儿坐了半天'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/288.wav",
+            "../data/slice/七根心简/01/289.wav",
+            "../data/slice/七根心简/01/290.wav",
+            "../data/slice/七根心简/01/291.wav",
+            "../data/slice/七根心简/01/292.wav",
+            "../data/slice/七根心简/01/293.wav",
+            "../data/slice/七根心简/01/294.wav",
+            "../data/slice/七根心简/01/295.wav",
+            "../data/slice/七根心简/01/296.wav",
+            "../data/slice/七根心简/01/297.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n假的'<audio>'\n合着我在这儿坐了半天'<audio>'\n听她编了个故事啊'<audio>'\n不过红姨'<audio>'\n你怎么知道是假的呀'<audio>'\n我不是跟你说过吗'<audio>'\n李教授呢是我的恩师'<audio>'\n他家的事啊'<audio>'\n我一直放在心上的'<audio>'\n不仅是通过万烽火'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/296.wav",
+            "../data/slice/七根心简/01/297.wav",
+            "../data/slice/七根心简/01/298.wav",
+            "../data/slice/七根心简/01/299.wav",
+            "../data/slice/七根心简/01/300.wav",
+            "../data/slice/七根心简/01/301.wav",
+            "../data/slice/七根心简/01/302.wav",
+            "../data/slice/七根心简/01/303.wav",
+            "../data/slice/七根心简/01/304.wav",
+            "../data/slice/七根心简/01/305.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我一直放在心上的'<audio>'\n不仅是通过万烽火'<audio>'\n那咱们这钱付还是不付'<audio>'\n照付吧'<audio>'\n万先生这么多年去打听'<audio>'\n没有功劳也有苦劳啊'<audio>'\n好吧'<audio>'\n红姨'<audio>'\n你人真好'<audio>'\n再说了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/304.wav",
+            "../data/slice/七根心简/01/305.wav",
+            "../data/slice/七根心简/01/306.wav",
+            "../data/slice/七根心简/01/307.wav",
+            "../data/slice/七根心简/01/308.wav",
+            "../data/slice/七根心简/01/309.wav",
+            "../data/slice/七根心简/01/310.wav",
+            "../data/slice/七根心简/01/311.wav",
+            "../data/slice/七根心简/01/312.wav",
+            "../data/slice/七根心简/01/313.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你人真好'<audio>'\n再说了'<audio>'\n我也不想让他知道'<audio>'\n我还托了别人'<audio>'\n你刚说的那位李先生'<audio>'\n好像很了解当年的事'<audio>'\n你去多接触一下他'<audio>'\n看看他都知道一些什么'<audio>'\n行'<audio>'\n我明白您意思'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/312.wav",
+            "../data/slice/七根心简/01/313.wav",
+            "../data/slice/七根心简/01/314.wav",
+            "../data/slice/七根心简/01/315.wav",
+            "../data/slice/七根心简/01/316.wav",
+            "../data/slice/七根心简/01/317.wav",
+            "../data/slice/七根心简/01/318.wav",
+            "../data/slice/七根心简/01/319.wav",
+            "../data/slice/七根心简/01/320.wav",
+            "../data/slice/七根心简/01/321.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n行'<audio>'\n我明白您意思'<audio>'\n那先挂了啊 红姨'<audio>'\n还有渔线杀人'<audio>'\n你这个恶魔'<audio>'\n去死吧'<audio>'\n他明明从那么高的地方摔下去'<audio>'\n怎么可能没死'<audio>'\n李先生'<audio>'\n不好意思'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/320.wav",
+            "../data/slice/七根心简/01/321.wav",
+            "../data/slice/七根心简/01/322.wav",
+            "../data/slice/七根心简/01/323.wav",
+            "../data/slice/七根心简/01/324.wav",
+            "../data/slice/七根心简/01/325.wav",
+            "../data/slice/七根心简/01/326.wav",
+            "../data/slice/七根心简/01/327.wav",
+            "../data/slice/七根心简/01/328.wav",
+            "../data/slice/七根心简/01/329.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n李先生'<audio>'\n不好意思'<audio>'\n二比一'<audio>'\n万烽火'<audio>'\n能搞到真消息'<audio>'\n我命都能给你'<audio>'\n这钱你收着亏心'<audio>'\n我花着不值'<audio>'\n李先生请留步'<audio>'\n今天的参会者'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/328.wav",
+            "../data/slice/七根心简/01/329.wav",
+            "../data/slice/七根心简/01/330.wav",
+            "../data/slice/七根心简/01/331.wav",
+            "../data/slice/七根心简/01/332.wav",
+            "../data/slice/七根心简/01/333.wav",
+            "../data/slice/七根心简/01/334.wav",
+            "../data/slice/七根心简/01/335.wav",
+            "../data/slice/七根心简/01/336.wav",
+            "../data/slice/七根心简/01/337.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n李先生请留步'<audio>'\n今天的参会者'<audio>'\n我在巴树别院都订了房间'<audio>'\n晚些时候还有资料要发放'<audio>'\n您可记得一定要来拿'<audio>'\n万老板'<audio>'\n那我也先撤了'<audio>'\n晚点回来'<audio>'\n好好好'<audio>'\n木小姐请便'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/336.wav",
+            "../data/slice/七根心简/01/337.wav",
+            "../data/slice/七根心简/01/338.wav",
+            "../data/slice/七根心简/01/339.wav",
+            "../data/slice/七根心简/01/340.wav",
+            "../data/slice/七根心简/01/341.wav",
+            "../data/slice/七根心简/01/342.wav",
+            "../data/slice/七根心简/01/343.wav",
+            "../data/slice/七根心简/01/344.wav",
+            "../data/slice/七根心简/01/345.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n好好好'<audio>'\n木小姐请便'<audio>'\n闪来闪去的'<audio>'\n这干什么呢'<audio>'\n罗哥'<audio>'\n不要回车那儿了'<audio>'\n为什么'<audio>'\n照我说的做'<audio>'\n往你的左手边走'<audio>'\n右拐进商场'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/344.wav",
+            "../data/slice/七根心简/01/345.wav",
+            "../data/slice/七根心简/01/346.wav",
+            "../data/slice/七根心简/01/347.wav",
+            "../data/slice/七根心简/01/348.wav",
+            "../data/slice/七根心简/01/349.wav",
+            "../data/slice/七根心简/01/350.wav",
+            "../data/slice/七根心简/01/351.wav",
+            "../data/slice/七根心简/01/352.wav",
+            "../data/slice/七根心简/01/353.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n往你的左手边走'<audio>'\n右拐进商场'<audio>'\n罗哥'<audio>'\n我现在已经到商场了'<audio>'\n怎么说'<audio>'\n继续往下走'<audio>'\n继续往下走'<audio>'\n你被跟踪了'<audio>'\n我 我被跟踪了'<audio>'\n快跑'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/352.wav",
+            "../data/slice/七根心简/01/353.wav",
+            "../data/slice/七根心简/01/354.wav",
+            "../data/slice/七根心简/01/355.wav",
+            "../data/slice/七根心简/01/356.wav",
+            "../data/slice/七根心简/01/357.wav",
+            "../data/slice/七根心简/01/358.wav",
+            "../data/slice/七根心简/01/359.wav",
+            "../data/slice/七根心简/01/360.wav",
+            "../data/slice/七根心简/01/361.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我 我被跟踪了'<audio>'\n快跑'<audio>'\n好'<audio>'\n按哪'<audio>'\n几楼啊'<audio>'\n五楼'<audio>'\n有病吧'<audio>'\n办得怎么样了'<audio>'\n这么长时间'<audio>'\n万老板有规矩我知道'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/360.wav",
+            "../data/slice/七根心简/01/361.wav",
+            "../data/slice/七根心简/01/362.wav",
+            "../data/slice/七根心简/01/363.wav",
+            "../data/slice/七根心简/01/364.wav",
+            "../data/slice/七根心简/01/365.wav",
+            "../data/slice/七根心简/01/366.wav",
+            "../data/slice/七根心简/01/367.wav",
+            "../data/slice/七根心简/01/368.wav",
+            "../data/slice/七根心简/01/369.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n这么长时间'<audio>'\n万老板有规矩我知道'<audio>'\n但规矩都是人定的'<audio>'\n没必要认死理'<audio>'\n摄像头是我放的'<audio>'\n以后不会再用'<audio>'\n还有你的生意我没什么兴趣'<audio>'\n请你以后也不要过来找我'<audio>'\n懂'<audio>'\n我都懂'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/368.wav",
+            "../data/slice/七根心简/01/369.wav",
+            "../data/slice/七根心简/01/370.wav",
+            "../data/slice/七根心简/01/371.wav",
+            "../data/slice/七根心简/01/372.wav",
+            "../data/slice/七根心简/01/373.wav",
+            "../data/slice/七根心简/01/374.wav",
+            "../data/slice/七根心简/01/375.wav",
+            "../data/slice/七根心简/01/376.wav",
+            "../data/slice/七根心简/01/377.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n懂'<audio>'\n我都懂'<audio>'\n先生'<audio>'\n这瓶酒咱们标价两百'<audio>'\n两百'<audio>'\n好嘞'<audio>'\n亚青你放心'<audio>'\n他们都在糊弄你'<audio>'\n我绝不会糊弄你'<audio>'\n我一定会把他们揪出来'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/376.wav",
+            "../data/slice/七根心简/01/377.wav",
+            "../data/slice/七根心简/01/378.wav",
+            "../data/slice/七根心简/01/379.wav",
+            "../data/slice/七根心简/01/380.wav",
+            "../data/slice/七根心简/01/381.wav",
+            "../data/slice/七根心简/01/382.wav",
+            "../data/slice/七根心简/01/383.wav",
+            "../data/slice/七根心简/01/384.wav",
+            "../data/slice/七根心简/01/385.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我绝不会糊弄你'<audio>'\n我一定会把他们揪出来'<audio>'\n揪出来'<audio>'\n把钱包还我'<audio>'\n站住'<audio>'\n回来'<audio>'\n把钱包还给我'<audio>'\n怎么事 曹哥'<audio>'\n练家子 扎手'<audio>'\n就她'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/384.wav",
+            "../data/slice/七根心简/01/385.wav",
+            "../data/slice/七根心简/01/386.wav",
+            "../data/slice/七根心简/01/387.wav",
+            "../data/slice/七根心简/01/388.wav",
+            "../data/slice/七根心简/01/389.wav",
+            "../data/slice/七根心简/01/390.wav",
+            "../data/slice/七根心简/01/391.wav",
+            "../data/slice/七根心简/01/392.wav",
+            "../data/slice/七根心简/01/393.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n练家子 扎手'<audio>'\n就她'<audio>'\n别大意 咱俩一起上'<audio>'\n钱包还我'<audio>'\n都两回了'<audio>'\n咱俩跟拴上了似的'<audio>'\n今儿这档子事'<audio>'\n和您没关系吧'<audio>'\n不该您管的事您偏管'<audio>'\n你懂规矩吗'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/392.wav",
+            "../data/slice/七根心简/01/393.wav",
+            "../data/slice/七根心简/01/394.wav",
+            "../data/slice/七根心简/01/395.wav",
+            "../data/slice/七根心简/01/396.wav",
+            "../data/slice/七根心简/01/397.wav",
+            "../data/slice/七根心简/01/398.wav",
+            "../data/slice/七根心简/01/399.wav",
+            "../data/slice/七根心简/01/400.wav",
+            "../data/slice/七根心简/01/401.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n不该您管的事您偏管'<audio>'\n你懂规矩吗'<audio>'\n那什么'<audio>'\n这东西先给你吧'<audio>'\n你自己看着办啊'<audio>'\n真不仗义'<audio>'\n把钱包还我'<audio>'\n在这儿呢'<audio>'\n看看有没有少钱'<audio>'\n钱不重要'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/400.wav",
+            "../data/slice/七根心简/01/401.wav",
+            "../data/slice/七根心简/01/402.wav",
+            "../data/slice/七根心简/01/403.wav",
+            "../data/slice/七根心简/01/404.wav",
+            "../data/slice/七根心简/01/405.wav",
+            "../data/slice/七根心简/01/406.wav",
+            "../data/slice/七根心简/01/407.wav",
+            "../data/slice/七根心简/01/408.wav",
+            "../data/slice/七根心简/01/409.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n看看有没有少钱'<audio>'\n钱不重要'<audio>'\n主要这张照片'<audio>'\n丢了就没了'<audio>'\n姑娘'<audio>'\n谢谢你啊'<audio>'\n起来'<audio>'\n道歉'<audio>'\n算了'<audio>'\n他们是团伙'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/408.wav",
+            "../data/slice/七根心简/01/409.wav",
+            "../data/slice/七根心简/01/410.wav",
+            "../data/slice/七根心简/01/411.wav",
+            "../data/slice/七根心简/01/412.wav",
+            "../data/slice/七根心简/01/413.wav",
+            "../data/slice/七根心简/01/414.wav",
+            "../data/slice/七根心简/01/415.wav",
+            "../data/slice/七根心简/01/416.wav",
+            "../data/slice/七根心简/01/417.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n算了'<audio>'\n他们是团伙'<audio>'\n别跟他们纠缠'<audio>'\n省得惹一身麻烦'<audio>'\n这位大哥一看就有经验'<audio>'\n你 你得听劝'<audio>'\n我那兄弟要真勾来人来'<audio>'\n你也吃不了兜着走'<audio>'\n是吗'<audio>'\n是 是'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/416.wav",
+            "../data/slice/七根心简/01/417.wav",
+            "../data/slice/七根心简/01/418.wav",
+            "../data/slice/七根心简/01/419.wav",
+            "../data/slice/七根心简/01/420.wav",
+            "../data/slice/七根心简/01/421.wav",
+            "../data/slice/七根心简/01/422.wav",
+            "../data/slice/七根心简/01/423.wav",
+            "../data/slice/七根心简/01/424.wav",
+            "../data/slice/七根心简/01/425.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n是吗'<audio>'\n是 是'<audio>'\n是'<audio>'\n你看'<audio>'\n这干吗呢'<audio>'\n抱着个柱子干啥呢'<audio>'\n姑娘'<audio>'\n今天多亏了你'<audio>'\n但是一个女孩'<audio>'\n在外面还是少和这些'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/424.wav",
+            "../data/slice/七根心简/01/425.wav",
+            "../data/slice/七根心简/01/426.wav",
+            "../data/slice/七根心简/01/427.wav",
+            "../data/slice/七根心简/01/428.wav",
+            "../data/slice/七根心简/01/429.wav",
+            "../data/slice/七根心简/01/430.wav",
+            "../data/slice/七根心简/01/431.wav",
+            "../data/slice/七根心简/01/432.wav",
+            "../data/slice/七根心简/01/433.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n但是一个女孩'<audio>'\n在外面还是少和这些'<audio>'\n地痞流氓瞎接触'<audio>'\n容易吃亏'<audio>'\n谁怕谁呀'<audio>'\n李叔'<audio>'\n我想问问'<audio>'\n你为什么查落马湖这个案子'<audio>'\n你呢'<audio>'\n你这个年纪'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/432.wav",
+            "../data/slice/七根心简/01/433.wav",
+            "../data/slice/七根心简/01/434.wav",
+            "../data/slice/七根心简/01/435.wav",
+            "../data/slice/七根心简/01/436.wav",
+            "../data/slice/七根心简/01/437.wav",
+            "../data/slice/七根心简/01/438.wav",
+            "../data/slice/七根心简/01/439.wav",
+            "../data/slice/七根心简/01/440.wav",
+            "../data/slice/七根心简/01/441.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你呢'<audio>'\n你这个年纪'<audio>'\n案发的时候还没出生吧'<audio>'\n你又为什么查呢'<audio>'\n我呀'<audio>'\n我是替我养母来的'<audio>'\n她是李教授的学生'<audio>'\n恩师一家出了这么惨的事'<audio>'\n她一直放不下'<audio>'\n难怪'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/440.wav",
+            "../data/slice/七根心简/01/441.wav",
+            "../data/slice/七根心简/01/442.wav",
+            "../data/slice/七根心简/01/443.wav",
+            "../data/slice/七根心简/01/444.wav",
+            "../data/slice/七根心简/01/445.wav",
+            "../data/slice/七根心简/01/446.wav",
+            "../data/slice/七根心简/01/447.wav",
+            "../data/slice/七根心简/01/448.wav",
+            "../data/slice/七根心简/01/449.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n她一直放不下'<audio>'\n难怪'<audio>'\n因为她'<audio>'\n她是谁啊'<audio>'\n她叫李亚青'<audio>'\n她怎么跟红姨这么像'<audio>'\n她叫李亚青'<audio>'\n李教授的女儿李亚青'<audio>'\n如果那天没出事'<audio>'\n那一年我们就订婚了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/448.wav",
+            "../data/slice/七根心简/01/449.wav",
+            "../data/slice/七根心简/01/450.wav",
+            "../data/slice/七根心简/01/451.wav",
+            "../data/slice/七根心简/01/452.wav",
+            "../data/slice/七根心简/01/453.wav",
+            "../data/slice/七根心简/01/454.wav",
+            "../data/slice/七根心简/01/455.wav",
+            "../data/slice/七根心简/01/456.wav",
+            "../data/slice/七根心简/01/457.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n如果那天没出事'<audio>'\n那一年我们就订婚了'<audio>'\n二十多年了'<audio>'\n为了这个案子'<audio>'\n我丢了工作'<audio>'\n弃了前程'<audio>'\n追查了半辈子'<audio>'\n还不是心里有坎儿过不去吗'<audio>'\n李叔'<audio>'\n你确定你那个朋友真的死了吗'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/456.wav",
+            "../data/slice/七根心简/01/457.wav",
+            "../data/slice/七根心简/01/458.wav",
+            "../data/slice/七根心简/01/459.wav",
+            "../data/slice/七根心简/01/460.wav",
+            "../data/slice/七根心简/01/461.wav",
+            "../data/slice/七根心简/01/462.wav",
+            "../data/slice/七根心简/01/463.wav",
+            "../data/slice/七根心简/01/464.wav",
+            "../data/slice/七根心简/01/465.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n李叔'<audio>'\n你确定你那个朋友真的死了吗'<audio>'\n你这话什么意思'<audio>'\n我是说这件事情查清楚了吗'<audio>'\n你到底想说什么'<audio>'\n我是觉得'<audio>'\n万一'<audio>'\n万一看错了呢'<audio>'\n你当我瞎吗'<audio>'\n不是'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/464.wav",
+            "../data/slice/七根心简/01/465.wav",
+            "../data/slice/七根心简/01/466.wav",
+            "../data/slice/七根心简/01/467.wav",
+            "../data/slice/七根心简/01/468.wav",
+            "../data/slice/七根心简/01/469.wav",
+            "../data/slice/七根心简/01/470.wav",
+            "../data/slice/七根心简/01/471.wav",
+            "../data/slice/七根心简/01/472.wav",
+            "../data/slice/七根心简/01/473.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你当我瞎吗'<audio>'\n不是'<audio>'\n你觉得我连自己的爱人'<audio>'\n都认不出来'<audio>'\n我当时还是警察'<audio>'\n这种事我能搞错'<audio>'\n凶案发生的时候'<audio>'\n我是第一个到达现场的人'<audio>'\n你知道我都看到了什么'<audio>'\n现场惨不忍睹'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/472.wav",
+            "../data/slice/七根心简/01/473.wav",
+            "../data/slice/七根心简/01/474.wav",
+            "../data/slice/七根心简/01/475.wav",
+            "../data/slice/七根心简/01/476.wav",
+            "../data/slice/七根心简/01/477.wav",
+            "../data/slice/七根心简/01/478.wav",
+            "../data/slice/七根心简/01/479.wav",
+            "../data/slice/七根心简/01/480.wav",
+            "../data/slice/七根心简/01/481.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你知道我都看到了什么'<audio>'\n现场惨不忍睹'<audio>'\n我至今记忆犹新'<audio>'\n我甚至能在脑子里'<audio>'\n复原出亚青是怎么倒下的'<audio>'\n怎么被拖动的'<audio>'\n又怎么被缠进那该死的渔线里'<audio>'\n李叔'<audio>'\n我累了'<audio>'\n你慢慢喝'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/480.wav",
+            "../data/slice/七根心简/01/481.wav",
+            "../data/slice/七根心简/01/482.wav",
+            "../data/slice/七根心简/01/483.wav",
+            "../data/slice/七根心简/01/484.wav",
+            "../data/slice/七根心简/01/485.wav",
+            "../data/slice/七根心简/01/486.wav",
+            "../data/slice/七根心简/01/487.wav",
+            "../data/slice/七根心简/01/488.wav",
+            "../data/slice/七根心简/01/489.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我累了'<audio>'\n你慢慢喝'<audio>'\n对了'<audio>'\n你养母既然是李教授的学生'<audio>'\n也算是沾故'<audio>'\n你告诉她'<audio>'\n别信岑春娇的话'<audio>'\n为什么呀'<audio>'\n两年前凶手又犯案了'<audio>'\n同样是渔线'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/488.wav",
+            "../data/slice/七根心简/01/489.wav",
+            "../data/slice/七根心简/01/490.wav",
+            "../data/slice/七根心简/01/491.wav",
+            "../data/slice/七根心简/01/492.wav",
+            "../data/slice/七根心简/01/493.wav",
+            "../data/slice/七根心简/01/494.wav",
+            "../data/slice/七根心简/01/495.wav",
+            "../data/slice/七根心简/01/496.wav",
+            "../data/slice/七根心简/01/497.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n两年前凶手又犯案了'<audio>'\n同样是渔线'<audio>'\n同样手段残忍'<audio>'\n我跟他打过照面'<audio>'\n只可惜'<audio>'\n我没看清他的脸'<audio>'\n所以五年前死的刘树海'<audio>'\n肯定不是凶手'<audio>'\n您回来了'<audio>'\n妹妹'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/496.wav",
+            "../data/slice/七根心简/01/497.wav",
+            "../data/slice/七根心简/01/498.wav",
+            "../data/slice/七根心简/01/499.wav",
+            "../data/slice/七根心简/01/500.wav",
+            "../data/slice/七根心简/01/501.wav",
+            "../data/slice/七根心简/01/502.wav",
+            "../data/slice/七根心简/01/503.wav",
+            "../data/slice/七根心简/01/504.wav",
+            "../data/slice/七根心简/01/505.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n您回来了'<audio>'\n妹妹'<audio>'\n你看我多乖'<audio>'\n我都没敢挪窝'<audio>'\n第几次了'<audio>'\n我准你叫我妹妹了吗'<audio>'\n这么年轻漂亮'<audio>'\n叫别的不叫老了吗'<audio>'\n看出来你是惯偷'<audio>'\n报警完事'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/504.wav",
+            "../data/slice/七根心简/01/505.wav",
+            "../data/slice/七根心简/01/506.wav",
+            "../data/slice/七根心简/01/507.wav",
+            "../data/slice/七根心简/01/508.wav",
+            "../data/slice/七根心简/01/509.wav",
+            "../data/slice/七根心简/01/510.wav",
+            "../data/slice/七根心简/01/511.wav",
+            "../data/slice/七根心简/01/512.wav",
+            "../data/slice/七根心简/01/513.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n看出来你是惯偷'<audio>'\n报警完事'<audio>'\n别 别'<audio>'\n怎么能是惯偷呢'<audio>'\n你这么想'<audio>'\n我拢共就做了两票案'<audio>'\n还全都折你手里了'<audio>'\n我手这么潮能是惯偷吗'<audio>'\n我就是那个悬崖边上的孩子'<audio>'\n你拉我一把我就回来'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/512.wav",
+            "../data/slice/七根心简/01/513.wav",
+            "../data/slice/七根心简/01/514.wav",
+            "../data/slice/七根心简/01/515.wav",
+            "../data/slice/七根心简/01/516.wav",
+            "../data/slice/七根心简/01/517.wav",
+            "../data/slice/七根心简/01/518.wav",
+            "../data/slice/七根心简/01/519.wav",
+            "../data/slice/七根心简/01/520.wav",
+            "../data/slice/七根心简/01/521.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我就是那个悬崖边上的孩子'<audio>'\n你拉我一把我就回来'<audio>'\n推我可真下去了'<audio>'\n我师父说了'<audio>'\n人在江湖路自选'<audio>'\n再一再二不再三'<audio>'\n再给你一次机会'<audio>'\n没有下次了啊'<audio>'\n您放心'<audio>'\n打死我也不敢了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/520.wav",
+            "../data/slice/七根心简/01/521.wav",
+            "../data/slice/七根心简/01/522.wav",
+            "../data/slice/七根心简/01/523.wav",
+            "../data/slice/七根心简/01/524.wav",
+            "../data/slice/七根心简/01/525.wav",
+            "../data/slice/七根心简/01/526.wav",
+            "../data/slice/七根心简/01/527.wav",
+            "../data/slice/七根心简/01/528.wav",
+            "../data/slice/七根心简/01/529.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n您放心'<audio>'\n打死我也不敢了'<audio>'\n谢谢'<audio>'\n瞧你那德行'<audio>'\n怎么着'<audio>'\n准备跟踪报复啊'<audio>'\n不不不 不能不能'<audio>'\n我是看您身手怪利索'<audio>'\n心向往之'<audio>'\n不知道有没有荣幸可以认识一下'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/528.wav",
+            "../data/slice/七根心简/01/529.wav",
+            "../data/slice/七根心简/01/530.wav",
+            "../data/slice/七根心简/01/531.wav",
+            "../data/slice/七根心简/01/532.wav",
+            "../data/slice/七根心简/01/533.wav",
+            "../data/slice/七根心简/01/534.wav",
+            "../data/slice/七根心简/01/535.wav",
+            "../data/slice/七根心简/01/536.wav",
+            "../data/slice/七根心简/01/537.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n心向往之'<audio>'\n不知道有没有荣幸可以认识一下'<audio>'\n没有'<audio>'\n妹妹'<audio>'\n妹妹'<audio>'\n我 我这个人从小就喜欢功夫'<audio>'\n这是我的偶像李港龙'<audio>'\n他的片我全都瞧过'<audio>'\n但是现实生活当中'<audio>'\n我遇见的会功夫的人'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/536.wav",
+            "../data/slice/七根心简/01/537.wav",
+            "../data/slice/七根心简/01/538.wav",
+            "../data/slice/七根心简/01/539.wav",
+            "../data/slice/七根心简/01/540.wav",
+            "../data/slice/七根心简/01/541.wav",
+            "../data/slice/七根心简/01/542.wav",
+            "../data/slice/七根心简/01/543.wav",
+            "../data/slice/七根心简/01/544.wav",
+            "../data/slice/七根心简/01/545.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n但是现实生活当中'<audio>'\n我遇见的会功夫的人'<audio>'\n您还是头一个呢'<audio>'\n这这 这个'<audio>'\n您这功夫还都使我身上了是吧'<audio>'\n这所谓不打不相识'<audio>'\n在下曹严华'<audio>'\n孔曹严华 金魏陶姜'<audio>'\n名字这么来的'<audio>'\n您瞧'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/544.wav",
+            "../data/slice/七根心简/01/545.wav",
+            "../data/slice/七根心简/01/546.wav",
+            "../data/slice/七根心简/01/547.wav",
+            "../data/slice/七根心简/01/548.wav",
+            "../data/slice/七根心简/01/549.wav",
+            "../data/slice/七根心简/01/550.wav",
+            "../data/slice/七根心简/01/551.wav",
+            "../data/slice/七根心简/01/552.wav",
+            "../data/slice/七根心简/01/553.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n名字这么来的'<audio>'\n您瞧'<audio>'\n您 您连我名字的典故都知道'<audio>'\n真是文武双全啊'<audio>'\n当然了'<audio>'\n论拳脚和您比那是太微末'<audio>'\n可我也会些个江湖手段啊'<audio>'\n保不齐什么地方'<audio>'\n还就能帮上你'<audio>'\n你就比如现在'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/552.wav",
+            "../data/slice/七根心简/01/553.wav",
+            "../data/slice/七根心简/01/554.wav",
+            "../data/slice/七根心简/01/555.wav",
+            "../data/slice/七根心简/01/556.wav",
+            "../data/slice/七根心简/01/557.wav",
+            "../data/slice/七根心简/01/558.wav",
+            "../data/slice/七根心简/01/559.wav",
+            "../data/slice/七根心简/01/560.wav",
+            "../data/slice/七根心简/01/561.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n还就能帮上你'<audio>'\n你就比如现在'<audio>'\n我就能明确地告诉你'<audio>'\n从茶座到这儿'<audio>'\n是哪个色狼在盯你的梢'<audio>'\n跟我来'<audio>'\n注意了'<audio>'\n表现得自然点啊'<audio>'\n朝我的斜后方看'<audio>'\n水果摊'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/560.wav",
+            "../data/slice/七根心简/01/561.wav",
+            "../data/slice/七根心简/01/562.wav",
+            "../data/slice/七根心简/01/563.wav",
+            "../data/slice/七根心简/01/564.wav",
+            "../data/slice/七根心简/01/565.wav",
+            "../data/slice/七根心简/01/566.wav",
+            "../data/slice/七根心简/01/567.wav",
+            "../data/slice/七根心简/01/568.wav",
+            "../data/slice/七根心简/01/569.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n朝我的斜后方看'<audio>'\n水果摊'<audio>'\n穿棕夹克那小子就是'<audio>'\n错不了'<audio>'\n刚才我被捆那儿的时候'<audio>'\n有一无人机就嗡嗡嗡地飞'<audio>'\n我还以为拍我呢'<audio>'\n赶紧躲起来'<audio>'\n没承想那飞机朝你去'<audio>'\n那很明显'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/568.wav",
+            "../data/slice/七根心简/01/569.wav",
+            "../data/slice/七根心简/01/570.wav",
+            "../data/slice/七根心简/01/571.wav",
+            "../data/slice/七根心简/01/572.wav",
+            "../data/slice/七根心简/01/573.wav",
+            "../data/slice/七根心简/01/574.wav",
+            "../data/slice/七根心简/01/575.wav",
+            "../data/slice/七根心简/01/576.wav",
+            "../data/slice/七根心简/01/577.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n没承想那飞机朝你去'<audio>'\n那很明显'<audio>'\n先偷拍再跟踪'<audio>'\n后果不堪设想'<audio>'\n你要是为了报复我'<audio>'\n诓我骗我'<audio>'\n妹妹你这话就伤人了'<audio>'\n我前进碑曹爷就算要报复'<audio>'\n也不能用这么不入流的手段'<audio>'\n信我'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/576.wav",
+            "../data/slice/七根心简/01/577.wav",
+            "../data/slice/七根心简/01/578.wav",
+            "../data/slice/七根心简/01/579.wav",
+            "../data/slice/七根心简/01/580.wav",
+            "../data/slice/七根心简/01/581.wav",
+            "../data/slice/七根心简/01/582.wav",
+            "../data/slice/七根心简/01/583.wav",
+            "../data/slice/七根心简/01/584.wav",
+            "../data/slice/七根心简/01/585.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n也不能用这么不入流的手段'<audio>'\n信我'<audio>'\n那小子有鬼'<audio>'\n今天的草莓挺新鲜啊'<audio>'\n对 今天刚到的货'<audio>'\n要不给您来一盒'<audio>'\n好'<audio>'\n怎么支付'<audio>'\n好'<audio>'\n慢走'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/584.wav",
+            "../data/slice/七根心简/01/585.wav",
+            "../data/slice/七根心简/01/586.wav",
+            "../data/slice/七根心简/01/587.wav",
+            "../data/slice/七根心简/01/588.wav",
+            "../data/slice/七根心简/01/589.wav",
+            "../data/slice/七根心简/01/590.wav",
+            "../data/slice/七根心简/01/591.wav",
+            "../data/slice/七根心简/01/592.wav",
+            "../data/slice/七根心简/01/593.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n好'<audio>'\n慢走'<audio>'\n你干吗跟踪我'<audio>'\n我 跟踪你'<audio>'\n你可能误会了'<audio>'\n我朋友在这边住院'<audio>'\n我过来看他'<audio>'\n空着手去不太礼貌'<audio>'\n所以就来买点水果'<audio>'\n可能是碰巧'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/592.wav",
+            "../data/slice/七根心简/01/593.wav",
+            "../data/slice/七根心简/01/594.wav",
+            "../data/slice/七根心简/01/595.wav",
+            "../data/slice/七根心简/01/596.wav",
+            "../data/slice/七根心简/01/597.wav",
+            "../data/slice/七根心简/01/598.wav",
+            "../data/slice/七根心简/01/599.wav",
+            "../data/slice/七根心简/01/600.wav",
+            "../data/slice/七根心简/01/601.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n所以就来买点水果'<audio>'\n可能是碰巧'<audio>'\n跟你走重路了吧'<audio>'\n是吗'<audio>'\n不过姑娘'<audio>'\n如果你只是想认识我的话'<audio>'\n我叫罗韧'<audio>'\n这是我的号码'<audio>'\n你可以随时打给我'<audio>'\n不是'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/600.wav",
+            "../data/slice/七根心简/01/601.wav",
+            "../data/slice/七根心简/01/602.wav",
+            "../data/slice/七根心简/01/603.wav",
+            "../data/slice/七根心简/01/604.wav",
+            "../data/slice/七根心简/01/605.wav",
+            "../data/slice/七根心简/01/606.wav",
+            "../data/slice/七根心简/01/607.wav",
+            "../data/slice/七根心简/01/608.wav",
+            "../data/slice/七根心简/01/609.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你可以随时打给我'<audio>'\n不是'<audio>'\n就就 就让他走了'<audio>'\n看来这刘树海的生平挺有意思的'<audio>'\n之前就是一普通人'<audio>'\n说 生于安河'<audio>'\n为人一直本分'<audio>'\n后来去了大通旅游'<audio>'\n遭遇了交通事故'<audio>'\n翻车进入了河中了'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/608.wav",
+            "../data/slice/七根心简/01/609.wav",
+            "../data/slice/七根心简/01/610.wav",
+            "../data/slice/七根心简/01/611.wav",
+            "../data/slice/七根心简/01/612.wav",
+            "../data/slice/七根心简/01/613.wav",
+            "../data/slice/七根心简/01/614.wav",
+            "../data/slice/七根心简/01/615.wav",
+            "../data/slice/七根心简/01/616.wav",
+            "../data/slice/七根心简/01/617.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n遭遇了交通事故'<audio>'\n翻车进入了河中了'<audio>'\n昏迷了四十八个小时才抢救成功'<audio>'\n为医学奇迹'<audio>'\n出院后离家而去'<audio>'\n半年后死在了济泉旅馆'<audio>'\n看来这大难不死'<audio>'\n未必都有后福'<audio>'\n这上面说'<audio>'\n刘树海'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/616.wav",
+            "../data/slice/七根心简/01/617.wav",
+            "../data/slice/七根心简/01/618.wav",
+            "../data/slice/七根心简/01/619.wav",
+            "../data/slice/七根心简/01/620.wav",
+            "../data/slice/七根心简/01/621.wav",
+            "../data/slice/七根心简/01/622.wav",
+            "../data/slice/七根心简/01/623.wav",
+            "../data/slice/七根心简/01/624.wav",
+            "../data/slice/七根心简/01/625.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n这上面说'<audio>'\n刘树海'<audio>'\n从来就没去过落马湖'<audio>'\n他家人是这么说的'<audio>'\n他后背果真少了一块皮呀'<audio>'\n那姐妹没有胡扯啊'<audio>'\n浪费时间'<audio>'\n那万老板'<audio>'\n我也先撤了'<audio>'\n木小姐'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/624.wav",
+            "../data/slice/七根心简/01/625.wav",
+            "../data/slice/七根心简/01/626.wav",
+            "../data/slice/七根心简/01/627.wav",
+            "../data/slice/七根心简/01/628.wav",
+            "../data/slice/七根心简/01/629.wav",
+            "../data/slice/七根心简/01/630.wav",
+            "../data/slice/七根心简/01/631.wav",
+            "../data/slice/七根心简/01/632.wav",
+            "../data/slice/七根心简/01/633.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我也先撤了'<audio>'\n木小姐'<audio>'\n这是霍小姐'<audio>'\n在我这儿备的另外一个案子'<audio>'\n麻烦你转交给她'<audio>'\n张光华'<audio>'\n这人是谁啊'<audio>'\n红姨'<audio>'\n你看了吧'<audio>'\n万叔说这些遗物'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/632.wav",
+            "../data/slice/七根心简/01/633.wav",
+            "../data/slice/七根心简/01/634.wav",
+            "../data/slice/七根心简/01/635.wav",
+            "../data/slice/七根心简/01/636.wav",
+            "../data/slice/七根心简/01/637.wav",
+            "../data/slice/七根心简/01/638.wav",
+            "../data/slice/七根心简/01/639.wav",
+            "../data/slice/七根心简/01/640.wav",
+            "../data/slice/七根心简/01/641.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n你看了吧'<audio>'\n万叔说这些遗物'<audio>'\n是村民在大通的野河滩发现的'<audio>'\n那一带常有山洪爆发'<audio>'\n他应该是没逃过'<audio>'\n遇上意外了'<audio>'\n对了'<audio>'\n李叔说凶手两年前又犯案了'<audio>'\n我知道了'<audio>'\n木代'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/640.wav",
+            "../data/slice/七根心简/01/641.wav",
+            "../data/slice/七根心简/01/642.wav",
+            "../data/slice/七根心简/01/643.wav",
+            "../data/slice/七根心简/01/644.wav",
+            "../data/slice/七根心简/01/645.wav",
+            "../data/slice/七根心简/01/646.wav",
+            "../data/slice/七根心简/01/647.wav",
+            "../data/slice/七根心简/01/648.wav",
+            "../data/slice/七根心简/01/649.wav"
+        ],
+        "response": ""
+    },
+    {
+        "query": "\n给定多句台词、台词音频，您的任务是基于文本上下文及语义和台词音频信息判断相邻两句台词是否属于同一角色。\n\n»»»» 任务要求 »»»»\n1. 每行给定一句台词、台词音频，您需要输出 <0> 或 <1> ，表示该台词和上一句台词是否由同一角色所说。<0>  表示不同角色，<1>  表示同一角色。\n2. 结合台词的文本上下文及语义、台词音频信息来综合做出判断。\n3. 输出结果需与输入的行数严格对应，保持原有台词顺序，不得合并或修改台词内容，避免合并台词内容，将原文与结果按格式一起输出。\n\n»»»» 输入格式 »»»»\nsentence1[audio_tag]\nsentence2[audio_tag]\nsentence3[audio_tag]\n...\n\nJudgment results=\n\n»»»» 输出格式 »»»»\nsentence1<None>\nsentence2<0|1>\nsentence3<0|1>\n...\n\n»»»» 开始判断，遵守上述任务要求和格式 »»»»\n我知道了'<audio>'\n木代'<audio>'\n你帮我再去找李坦'<audio>'\n了解一下两年前的案子'<audio>'\n那我先挂了'<audio>'\n好的'<audio>'\n难道老天不开眼'<audio>'\n竟还让你活着'<audio>'\n\nJudgment results=\n",
+        "audios": [
+            "../data/slice/七根心简/01/648.wav",
+            "../data/slice/七根心简/01/649.wav",
+            "../data/slice/七根心简/01/650.wav",
+            "../data/slice/七根心简/01/651.wav",
+            "../data/slice/七根心简/01/652.wav",
+            "../data/slice/七根心简/01/653.wav",
+            "../data/slice/七根心简/01/654.wav",
+            "../data/slice/七根心简/01/655.wav"
+        ],
+        "response": ""
+    }
+]

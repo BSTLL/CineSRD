@@ -1,0 +1,15 @@
+common:
+  s_thold: 0.45
+  show_list: ['show1']
+  source_data_root: '/path/'
+  data_root: '/path/'
+  result_save_root: '/path/'
+
+video:
+  show_list: ['show1']          # Support for multiple episodes
+  input_root: '/path/'
+  output_root: '/path/'
+  avatar_subfolder: 'avatar'
+  num_processes: 4
+  num_gpus: 4
+

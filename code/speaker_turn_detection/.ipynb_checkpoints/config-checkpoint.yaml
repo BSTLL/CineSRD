@@ -1,0 +1,22 @@
+seg_size: 10
+overlap: 2
+audio_tag: "<audio>"
+data_root: "../../data"
+slice_subdir: "slice/en"
+csv_subdir: "csv/en"
+prompt_subdir: "prompt/en"
+dramas:
+  - "show1"
+  - "show2"
+numbers: [ "01", "02" ]
+prompt_path: "prompt.txt"
+
+audio_text_infer:
+  seg_size: 10            # Number of utterances per segment during audio-text matching inference (same as seg_size above)
+  overlap_half: 1         # Overlap length for stitching segments during inference, mainly for stitching logic
+  csv_dir: "/path/"       # Directory containing CSV files for inference
+  prompt_dir: "/path/"    # Directory to save prompt JSON files for inference
+  result_dir: "/path/"    # Directory to save inference results (CSV with audio probability scores)
+  dramas: [ "show1", "show2"]    # List of show names to process during inference
+  infer_model_path: "/path/"     # Model weights path for audio-text matching
+  cuda_devices: "0,1,2,3"        # GPU device numbers available for inference
